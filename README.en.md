@@ -36,7 +36,14 @@ Part 2 defaults to a health check-in (food, drinks, exercise, sleep). Swap it fo
 
 **Just the prompts**: copy the code blocks from the two files above. Every day: new chat → paste the start prompt → speak the four parts in voice mode → exit voice → paste the end prompt in the same chat → save the Markdown it produces.
 
-**Let an agent build the whole thing**: install the skill and say "help me set up an English speaking practice system". It asks a few questions in one go (where to keep the workspace, morning or evening practice, what to track in part 2, when to send review cards…), then:
+**Let an agent build the whole thing**: no idea how to install a skill? Just send this GitHub link to your agent and let it install the skill itself, then say "help me set up an English speaking practice system". You can send both at once:
+
+```
+Install this skill for me: https://github.com/skJack/kelip-english-speaking
+Then help me set up an English speaking practice system.
+```
+
+It asks a few questions in one go (where to keep the workspace, morning or evening practice, what to track in part 2, when to send review cards…), then:
 
 - writes your own two prompts from your answers;
 - creates a workspace: a journal folder, a word bank, and an `AGENTS.md` with every rule, so any agent can take over later;
@@ -47,6 +54,8 @@ After each session, send the end prompt's output to the agent and say "save it":
 Review cards ask first and answer below. Reply with your own sentences; the agent corrects them and schedules the next review at 1 → 3 → 7 → 14 → 30 days, or tomorrow if you missed it.
 
 ## Install
+
+Easiest: send this repo's link to your agent and say "install this skill for me"; it will follow the steps below.
 
 **Claude Code**:
 
