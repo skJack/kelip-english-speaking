@@ -1,0 +1,11 @@
+# 在仓库目录里试跑时可能生成的个人数据，一律不提交
+# 只忽略仓库根目录下的（templates/ 里的同名模板要提交）
+/journal/
+/language-bank.md
+/review-log.md
+/weekly-reviews/
+/speaking.json
+/dashboard.html
+/english-speaking/
+
+.DS_Store

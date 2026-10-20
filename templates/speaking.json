@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "timezone": "Asia/Shanghai",
+  "describe_day": "today",
+  "native_language": "Chinese",
+  "checkin": "health",
+  "review": {
+    "times": ["08:00", "10:00", "12:00", "14:00", "16:00", "18:00", "20:00"],
+    "items_per_card": 3
+  },
+  "reminder": {
+    "enabled": true,
+    "time": "18:00"
+  },
+  "deliver": "agent"
+}

@@ -1,0 +1,10 @@
+# 口语日记工作区：下面都是私人数据，不进任何仓库
+journal/
+language-bank.md
+review-log.md
+weekly-reviews/
+prompts/
+speaking.json
+dashboard.html
+
+.DS_Store
